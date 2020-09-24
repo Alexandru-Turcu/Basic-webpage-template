@@ -16,103 +16,139 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap/CSS-->
-    <link href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/css/now-ui-kit.min.css?v1.2.0" rel="stylesheet">
-    <link href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/demo/demo.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="./styles.css">
 
 
 </head>
 
 <body class="index-page sidebar-collapse">
-    <!-- Navbar-->
-    <div class="navbar">
-        <div class="my_dropdown">
-            <button class="dropbtn">Services
-        <i class="fa fa-caret-down"></i>
-      </button>
-            <div class="dropdown-content">
-                <div class="dropdown-row">
-                    <div class="dropdown-row-header">
-                        <h3>Product Categories</h3>
-                        <h3>Sale</h3>
-
-                    </div>
-
-                    <div class="dropdown-column">
-                        <a href="#404">Accessories</a>
-                        <a href="#404">Alcohol</a>
-                        <a href="#404">Art</a>
-                        <a href="#404">Books</a>
-                        <a href="#404">Drink</a>
-                        <a href="#404">Electronics</a>
-                        <a href="#404">Flowers & Plants</a>
-                        <a href="#404">Food</a>
-                    </div>
-                    <div class="dropdown-column">
-                        <a href="#404">Gadgets</a>
-                        <a href="#404">Garden</a>
-                        <a href="#404">Grocery</a>
-                        <a href="#404">Home</a>
-                        <a href="#404">Jewelry</a>
-                        <a href="#404">Kids & Baby</a>
-                        <a href="#404">Men's Fashion</a>
-                        <a href="#404">Mobile</a>
-                    </div>
-                    <div class="dropdown-column">
-                        <a href="#404">Motorcycles</a>
-                        <a href="#404">Movies</a>
-                        <a href="#404">Music</a>
-                        <a href="#404">Office</a>
-                        <a href="#404">Pets</a>
-                        <a href="#404">Romantic</a>
-                        <a href="#404">Sport</a>
-                        <a href="#404">Toys</a>
-                    </div>
-                    <div class="dropdown-column">
-                        <a href="#404">Accessories</a>
-                        <a href="#404">Alcohol</a>
-                        <a href="#404">Art</a>
-                        <a href="#404">Books</a>
-                        <a href="#404">Drink</a>
-                        <a href="#404">Electronics</a>
-                        <a href="#404">Flowers & Plants</a>
-                        <a href="#404">Food</a>
-                    </div>
+    <header>
+        <!-- Navbar-->
+        <div class="navbar">
+            <div id="logo">
+                <a href="#homepage"><img id="logo-img" alt="logo" src="./img/logo_click.png"></a>
+                <div id="logo-text">
+                    <h2> OSF</h2>
+                    <h3> Academy</h3>
                 </div>
             </div>
-        </div>
-        <a href="#company">Company</a>
-        <a href="#library">Library</a>
-        <a href="#contact">Contact Us</a>
-        <div class="my_dropdown">
-            <button class="dropbtn">EN
-        <i class="fa fa-caret-down"></i>
-      </button>
-        </div>
-        <div class="my_dropdown">
-            <button class="dropbtn">$US
-        <i class="fa fa-caret-down"></i>
-      </button>
-        </div>
-        <input type="text" placeholder="Search products...">
-    </div>
+            <div class="nav-items">
+                <div class="my_dropdown">
+                    <button class="dropbtn">Services
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="dropdown-row">
+                            <div class="dropdown-row-header">
+                                <h3>Product Categories</h3>
+                                <h3>Sale</h3>
 
+                            </div>
+
+                            <div class="dropdown-column">
+                                <a href="#404">Accessories</a>
+                                <a href="#404">Alcohol</a>
+                                <a href="#404">Art</a>
+                                <a href="#404">Books</a>
+                                <a href="#404">Drink</a>
+                                <a href="#404">Electronics</a>
+                                <a href="#404">Flowers & Plants</a>
+                                <a href="#404">Food</a>
+                            </div>
+                            <div class="dropdown-column">
+                                <a href="#404">Gadgets</a>
+                                <a href="#404">Garden</a>
+                                <a href="#404">Grocery</a>
+                                <a href="#404">Home</a>
+                                <a href="#404">Jewelry</a>
+                                <a href="#404">Kids & Baby</a>
+                                <a href="#404">Men's Fashion</a>
+                                <a href="#404">Mobile</a>
+                            </div>
+                            <div class="dropdown-column">
+                                <a href="#404">Motorcycles</a>
+                                <a href="#404">Movies</a>
+                                <a href="#404">Music</a>
+                                <a href="#404">Office</a>
+                                <a href="#404">Pets</a>
+                                <a href="#404">Romantic</a>
+                                <a href="#404">Sport</a>
+                                <a href="#404">Toys</a>
+                            </div>
+                            <div class="dropdown-column">
+                                <a href="#404">Accessories</a>
+                                <a href="#404">Alcohol</a>
+                                <a href="#404">Art</a>
+                                <a href="#404">Books</a>
+                                <a href="#404">Drink</a>
+                                <a href="#404">Electronics</a>
+                                <a href="#404">Flowers & Plants</a>
+                                <a href="#404">Food</a>
+                            </div>
+                            <div class="dropdown-column">
+                                <img alt="feat_img" src="img/feat_img.png"></img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a href="#company">Company</a>
+                    <a href="#library">Library</a>
+                    <a href="#contact">Contact Us</a>
+                </div>
+                <div class="my_dropdown">
+                    <button class="dropbtn">EN
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                </div>
+                <div class="my_dropdown">
+                    <button class="dropbtn">$US
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Search bar-->
+            <div class="search-wrapper">
+                <input type="text" placeholder="Search products...">
+            </div>
+        </div>
+        <!-- Login Modal-->
+    </header>
+    <!-- Cookies-->
+    <div class="cookie-container">
+        <h2>This website uses cookies</h2><br>
+        <p>OSF uses its own and third-party cookies for statistical purposes, to know your preferances, for website
+            performance and interaction with social media offering publicity tailored to your interests. If you continue
+            browsing, we consider that you accept its use.
+            You can expand this information consulting our<a href="#cookies" Cookies Policy Page></a>
+        </p>
+        <button class="cookie-btn">
+            Accept
+        </button>
+    </div>
     <!-- Carousel-->
-    <div class="w3-content w3-display-container" style="max-width:800px">
-        <img class="mySlides" src="./img/Layer_5.png" style="width:100%">
-        <img class="mySlides" src="./img/Layer_3.png" style="width:100%">
-        <img class="mySlides" src="./img/Layer_4.png" style="width:100%">
-        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+    <div class="slide-wrapper">
+        <div class="slide-show">
+            <div class="slide-img col-12" style="background-image: url(./img/slide_1.png);">
+                <h2>Control and manage any device with cloud solutions</h2>
+                <h5>Improve business performance and the user experience with the right mix of IoT technology and
+                    processes</h5>
+            </div>
+            <div class="slide-img col-12" style="background-image: url(./img/slide_2.png);">
+                <h3>Control and manage any device with cloud solutions</h3>
+                <h5>Improve business performance and the user experience with the right mix of IoT technology and
+                    processes</h5>
+            </div>
+            <div class="slide-img col-12" style="background-image: url(./img/slide_3.png);">
+                <h4>Control and manage any device with cloud solutions</h4>
+                <h5>Improve business performance and the user experience with the right mix of IoT technology and
+                    processes</h5>
+            </div>
         </div>
     </div>
-
     <!-- Popular Items-->
     <div class="section-basic" id="key-features">
         <div class="row">
@@ -151,50 +187,99 @@
             </div>
         </div>
     </div>
-    <!-- Jumbotron/modal-->
-    <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">
-            This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
-        </p>
-        <hr class="my-4" />
-        <p>
-            It uses utility classes for typography and spacing to space content out within the larger container.
-        </p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </div>
-    <!-- Button trigger modal-->
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
-    Launch demo modal
-  </button>
-
-    <!-- Modal-->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+    <!-- Featured Products-->
+    <div class="feat-products" id="feat-prod">
+        <div class="static-background">
+            <div class="static-feature">
+                <h3>Focus</h3>
+                <div class="static-text">
+                    <img src="img/f_prod_focus.png">
+                    <p>Our unwavering focus on superior service delivery and building next generation competencies
+                    </p>
                 </div>
-                <div class="modal-body">...</div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
-            Close
-          </button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+            <div class="static-feature">
+                <h3>Method</h3>
+                <div class="static-text">
+                    <img src="img/f_prod_method.png">
+                    <p>A standardized methodology designed to deliver measurable business results and predictable costs
+                    </p>
+                </div>
+            </div>
+            <div class="static-feature">
+                <h3>Knowledge</h3>
+                <div class="static-text">
+                    <img src="img/f_prod_knowledge.png">
+                    <p>A highly skilled, proactive workforce that reliably improves each client's ROI while mitigating
+                        their business risk
+                    </p>
                 </div>
             </div>
         </div>
     </div>
     <!-- Footer-->
-    <footer class="footer" data-background-color="black">
-        <div class="container">
+    <footer class="footer">
+        <div class="footer-items">
+            <div class="contact_info">
+                <h4>Contact</h4>
+                <p>Headquarters: 5600, Blvd des Galeries, Bur 530 Quebec, Quebec G2K 2H6</p><br>
+                <p>contact@osf-global.com</p><br>
+                <p>+1(888) 548-4344</p>
+            </div>
+            <div class="categories">
+                <h4>Categories</h4>
+                <a href="#404">Alcohol</a>
+                <a href="#404">Art</a>
+                <a href="#404">Books</a>
+                <a href="#404">Drink</a>
+                <a href="#404">Electronics</a>
+            </div>
+            <div class="categories">
+                <a href="#404">Home</a>
+                <a href="#404">Jewelry</a>
+                <a href="#404">Kids & Baby</a>
+                <a href="#404">Men's Fashion</a>
+                <a href="#404">Mobile</a>
+                <a href="#404">Motorcycles</a>
+                <a href="#404">Movies</a>
+                <a href="#404">Music</a>
+            </div>
+            <div class="categories">
+                <a href="#404">Sport</a>
+                <a href="#404">Toys</a>
+                <a href="#404">Travel</a>
+                <a href="#404">Women's Fashion</a>
+            </div>
+            <div class="about">
+                <h4>About</h4>
+                <a href="#company">About Us</a>
+                <a href="#delivery">Delivery</a>
+                <a href="#404">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </div>
             <nav>
                 <ul>
                     <li>
+                        <i class="fa fa-facebook" id="f-icon"></i>
+                        <a href="https://facebook.com">
+                            Facebook
+                        </a>
                         <i class="fa fa-github" id="github-icon"></i>
                         <a href="https://github.com/Alexandru-Turcu">
-              GitHub
-            </a>
+                            GitHub
+                        </a>
+                        <i class="fa fa-twitter" id="t-icon"></i>
+                        <a href="https://twitter.com">
+                            Twitter
+                        </a>
+                        <i class="fa fa-google" id="g-icon"></i>
+                        <a href="https://google.com">
+                            Google+
+                        </a>
+                        <i class="fa fa-pinterest" id="p-icon"></i>
+                        <a href="https://pinterest.com">
+                            Pinterest
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -206,17 +291,36 @@
             </div>
         </div>
     </footer>
+    <!-- JS Files-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.1/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="slick/slick.js"></script>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/plugins/bootstrap-datepicker.js"></script>
+
+    <script src="./index.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slide-show').slick({
+                dots: true,
+                infinite: false,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                centerMode: true,
+                centerPadding: true,
+                variableWith: true
+            });
+        });
+    </script>
 </body>
-
-<!-- JS Files-->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-<script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/plugins/bootstrap-switch.js"></script>
-<script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/plugins/nouislider.min.js"></script>
-<script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/plugins/bootstrap-datepicker.js"></script>
-<script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/now-ui-kit.js"></script>
-
-<script src="./index.js"></script>
 
 </html>
