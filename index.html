@@ -109,13 +109,74 @@
                         <i class="fa fa-caret-down"></i>
                     </button>
                 </div>
-            </div>
-            <!-- Search bar-->
-            <div class="search-wrapper">
-                <input type="text" placeholder="Search products...">
+                <div class="user-icon">
+                    <a href="img/user_icon.png" class="btn btn-default btn-rounded mb-4" data-toggle="modal"
+                        data-target="#loginModal"><img src="img/user_icon.png"></a>
+                </div>
+                <div class="search-icon">
+                    <a data-target="#searchBar"><img src="img/search_icon.png"></a>
+                </div>
+
             </div>
         </div>
         <!-- Login Modal-->
+        <div class="container">
+            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header border-bottom-0">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-title text-center">
+                                <h4>Login</h4>
+                            </div>
+                            <div class="d-flex flex-column text-center">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email1"
+                                            placeholder="Your email address...">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="password1"
+                                            placeholder="Your password...">
+                                    </div>
+                                    <button type="button" class="btn btn-info btn-block btn-round">Login</button>
+                                </form>
+
+                                <div class="text-center text-muted delimiter">or use a social network</div>
+                                <div class="d-flex justify-content-center social-buttons">
+                                    <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip"
+                                        data-placement="top" title="Twitter">
+                                        <i class="fab fa-twitter"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip"
+                                        data-placement="top" title="Facebook">
+                                        <i class="fab fa-facebook"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip"
+                                        data-placement="top" title="Linkedin">
+                                        <i class="fab fa-linkedin"></i>
+                                    </button>
+                                    </di>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer d-flex justify-content-center">
+                            <div class="signup-section">Not a member yet? <a href="#a" class="text-info"> Sign Up</a>.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Search bar <input type="text" placeholder="Search products...">-->
+            <div class="search-button" id="searchBar" role="dialog" aria-hidden="true">
+            </div>
+
+
     </header>
     <!-- Cookies-->
     <div class="cookie-container">
@@ -156,8 +217,6 @@
                 <div class="row">
                     <div class="col-8 ml-auto mr-auto">
                         <h2 class="title">Popular Items</h2>
-                        <h4 id="click">(Click here to find out more)</h4>
-                        <br><br><br>
                         <div class="nav-align-center">
                             <ul class="nav ml-auto" role="tablist" id="features">
                                 <li class="nav-item">
@@ -182,13 +241,51 @@
                                 </li>
                             </ul>
                         </div>
+                        <h4 id="click">(Load More)</h4>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Banner-->
+    <div class="banner-wrapper">
+
+        <div class="banner-picture">
+            <h4>Banner quote</h4>
+            <img src="img/banner.png">
+        </div>
+    </div>
     <!-- Featured Products-->
     <div class="feat-products" id="feat-prod">
+        <h4>Feautured Products</h4>
+        <div class="static-background-p">
+            <div class="static-img">
+                <img src="img/f_prod_1.png">
+                <p>Your description here</p>
+                <h3>Marketing</h3>
+            </div>
+        </div>
+        <div class="static-background-p">
+            <div class="static-img">
+                <img src="img/f_prod_2.png">
+                <p>Your description here</p>
+                <h3>Awesome</h3>
+            </div>
+        </div>
+        <div class="static-background-p">
+            <div class="static-img">
+                <img src="img/f_prod_3.png">
+                <p>Your description here</p>
+                <h3>Marketing</h3>
+            </div>
+        </div>
+        <div class="static-background-p">
+            <div class="static-img">
+                <img src="img/f_prod_4.png">
+                <p>Your description here</p>
+                <h3>Awesome</h3>
+            </div>
+        </div>
         <div class="static-background">
             <div class="static-feature">
                 <h3>Focus</h3>
