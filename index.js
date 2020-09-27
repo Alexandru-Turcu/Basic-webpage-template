@@ -21,3 +21,10 @@ setTimeout(() => {
     cookieContainer.classList.add("active");
   }
 }, 2000);
+
+$(document).ready(function () {
+  $("#loginModal").modal("show");
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+});
