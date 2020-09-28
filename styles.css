@@ -259,7 +259,7 @@ header {
 }
 .slide-wrapper {
   display: block;
-  width: 80vw;
+  width: 1171px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -559,11 +559,21 @@ header {
 }
 
 /*Popular items */
+.popular-items-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  justify-content: space-between;
+}
 
 .popular-items {
   display: flex;
   position: relative;
-  width: 271px;
+  width: 17vw;
+  max-width: 271px;
+  background-size: 300px 100px;
   justify-content: center;
   vertical-align: center;
   flex-direction: column;
@@ -572,11 +582,10 @@ header {
 }
 
 #wrapper {
-  background-image: url("./img/pitem_1.png");
   background-image: url("./img/pitem_1.png"), linear-gradient(green);
   background-repeat: no-repeat;
   background-size: auto;
-  width: 271px;
+  width: 17vw;
   height: 260px;
   display: flex;
   justify-content: space-evenly;
@@ -622,7 +631,8 @@ header {
 #actions-wrapper {
   display: flex;
   opacity: 0;
-  width: 271px;
+  width: 17vw;
+  max-width: 271px;
   height: 260px;
   justify-content: space-evenly;
   align-items: center;
