@@ -120,61 +120,63 @@
             </div>
         </div>
         <!-- Login Modal-->
-        <div class="login-container">
-            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header border-bottom-0">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true" style="display: none;">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-title text-center">
+                            <h4>Login</h4>
                         </div>
-                        <div class="modal-body">
-                            <div class="form-title text-center">
-                                <h4>Login</h4>
-                            </div>
-                            <div class="d-flex flex-column text-center">
-                                <form>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" id="email1"
-                                            placeholder="Your email address...">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="password" class="form-control" id="password1"
-                                            placeholder="Your password...">
-                                    </div>
-                                    <button type="button" class="btn btn-info btn-block btn-round">Login</button>
-                                </form>
-
-                                <div class="text-center text-muted delimiter">or use a social network</div>
-                                <div class="d-flex justify-content-center social-buttons">
-                                    <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip"
-                                        data-placement="top" title="Twitter">
-                                        <i class="fab fa-twitter"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip"
-                                        data-placement="top" title="Facebook">
-                                        <i class="fab fa-facebook"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip"
-                                        data-placement="top" title="Linkedin">
-                                        <i class="fab fa-linkedin"></i>
-                                    </button>
-                                    </di>
+                        <div class="d-flex flex-column text-center">
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email1"
+                                        placeholder="Your email address...">
                                 </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password1"
+                                        placeholder="Your password...">
+                                </div>
+                                <button type="button" class="btn btn-info btn-block btn-round">Login</button>
+                            </form>
+
+                            <div class="text-center text-muted delimiter">or use a social network</div>
+                            <div class="d-flex justify-content-center social-buttons">
+                                <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip"
+                                    data-placement="top" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+                                <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip"
+                                    data-placement="top" title="Facebook">
+                                    <i class="fab fa-facebook"></i>
+                                </button>
+                                <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip"
+                                    data-placement="top" title="Linkedin">
+                                    <i class="fab fa-linkedin"></i>
+                                </button>
+                                </di>
                             </div>
                         </div>
-                        <div class="modal-footer d-flex justify-content-center">
-                            <div class="signup-section">Not a member yet? <a href="#a" class="text-info"> Sign Up</a>.
-                            </div>
-                        </div>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <div class="signup-section">Not a member yet? <a href="#a" class="text-info"> Sign Up</a>.</div>
                     </div>
                 </div>
             </div>
             <!-- Search bar <input type="text" placeholder="Search products...">-->
             <div class="search-button" id="searchBar" role="dialog" aria-hidden="true">
             </div>
+        </div>
+
+
+
+
 
 
     </header>
@@ -232,41 +234,65 @@
         </div>
     </div>
     <!-- Popular Items-->
-    <div class="section-basic" id="key-features">
-        <div class="row">
-            <div class="col-6 col-sm-6 col-md-6 col lg-6">
-                <div class="row">
-                    <div class="col-8 ml-auto mr-auto">
-                        <h2 class="title">Popular Items</h2>
-                        <div class="nav-align-center">
-                            <ul class="nav ml-auto" role="tablist" id="features">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#item_1" data-toggle="tab" role="tablist">
-                                        <img class="d-block" src="./img/pitem_1.png" alt="first item"><br>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#item_2" data-toggle="tab" role="tablist">
-                                        <img class="d-block" src="./img/pitem_2.png" alt="second item"><br>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#item_3" data-toggle="tab" role="tablist">
-                                        <img class="d-block" src="./img/pitem_3.png" alt="third item">
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#item_4" data-toggle="tab" role="tablist">
-                                        <img class="d-block" src="./img/pitem_4.png" alt="fourth item">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+    <div class="popular-items">
+        <div id="actions-wrapper">
+            <a href="#">
+                <div class="image-wrapper"><img src="img/Heart_(24x24).png" alt="">
                 </div>
-            </div>
+            </a>
+            <a href="#">
+                <div class="image-wrapper"><img src="img/Plus_(24x24).png" alt=""></div>
+            </a>
+        </div>
+        <div id="wrapper">
+        </div>
+        <div id="details-wrapper">
+            <p>Some description</p>
+        </div>
+        <div id="actions-wrapper">
+            <a href="#">
+                <div class="image-wrapper"><img src="img/Heart_(24x24).png" alt="">
+                </div>
+            </a>
+            <a href="#">
+                <div class="image-wrapper"><img src="img/Plus_(24x24).png" alt=""></div>
+            </a>
+        </div>
+        <div id="wrapper">
+        </div>
+        <div id="details-wrapper">
+            <p>Some description</p>
+        </div>
+        <div id="actions-wrapper">
+            <a href="#">
+                <div class="image-wrapper"><img src="img/Heart_(24x24).png" alt="">
+                </div>
+            </a>
+            <a href="#">
+                <div class="image-wrapper"><img src="img/Plus_(24x24).png" alt=""></div>
+            </a>
+        </div>
+        <div id="wrapper">
+        </div>
+        <div id="details-wrapper">
+            <p>Some description</p>
+        </div>
+        <div id="actions-wrapper">
+            <a href="#">
+                <div class="image-wrapper"><img src="img/Heart_(24x24).png" alt="">
+                </div>
+            </a>
+            <a href="#">
+                <div class="image-wrapper"><img src="img/Plus_(24x24).png" alt=""></div>
+            </a>
+        </div>
+        <div id="wrapper">
+        </div>
+        <div id="details-wrapper">
+            <p>Some description</p>
         </div>
     </div>
+
     <!-- Banner-->
     <div class="banner-wrapper">
         <img src="./img/banner.png" alt="banner" style="width:100%;">
