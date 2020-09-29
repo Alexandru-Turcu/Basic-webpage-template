@@ -582,7 +582,7 @@ header {
 }
 
 #wrapper {
-  background-image: url("./img/pitem_1.png"), linear-gradient(green);
+  background-image: linear-gradient(green);
   background-repeat: no-repeat;
   background-size: auto;
   width: 17vw;
